@@ -10,7 +10,7 @@ Various models were built, and their performance was evaluated with R^2 score, a
 
 The evaluation scores on the test data set are: R^2 = 0.552064, and RMSE = 2.041903.
 
-You can read the full report of the project [here](https://djosifovski.github.io/portfolio/).
+You can read the full report of the project [here](https://djosifovski.github.io/portfolio/Abalone-Age-Prediction/).
 
 # Installation
 - Clone the repository to your local computer.
