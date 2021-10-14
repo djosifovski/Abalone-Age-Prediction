@@ -6,7 +6,7 @@ There is a positive correlation between the economic value and age of abalone, m
 The goal of the project is to predicit the age of abalone from physical measurements with machine learning.
 
 # Methodology
-Various models were built, and their performance was evaluated with $R^{2}$ score, and root mean square error (RMSE). The winning model is Random Forests from the `sklearn` library with the following parameters: `'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'mse', 'max_depth': 12, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 722, 'n_jobs': -1, 'oob_score': False, 'random_state': 0, 'verbose': 0, 'warm_start': False`.
+Various models were built, and their performance was evaluated with R^2 score, and root mean square error (RMSE). The winning model is Random Forests from the `sklearn` library with the following parameters: `'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'mse', 'max_depth': 12, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 722, 'n_jobs': -1, 'oob_score': False, 'random_state': 0, 'verbose': 0, 'warm_start': False`.
 
 The evaluation scores on the test data set are: R^2 = 0.552064, and RMSE = 2.041903.
 
