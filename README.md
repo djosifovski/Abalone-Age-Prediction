@@ -1,9 +1,7 @@
-# Problem statement
-Abalones are sea snails that live in kelp forest in ocean water. They are very nutritious and expensive delicacy for their unique taste. Thus, they are in high demand, especially in Asia. This has created a multibillion dollar export industry.
+# Abalone Age Prediction
 
-There is a positive correlation between the economic value and age of abalone, meaning that as the abalone is older it is more expensive. This makes determining the age of abalone very important to those involved in this business.
+## Motivation
+Determining the age of abalone is an important task because it affects the revenue of the industry. The traditional approach is time-consuming, and different approaches are needed to speed up the process. The motivation for this project is to address that by determining the age of abalone from physical measurments with machine learning models.
 
-The goal of the project is to predicit the age of abalone from physical measurements with machine learning.
-
-# Methodology
-Various models were built, and their performance was evaluated with R^2 score, and root mean square error (RMSE). The winning model is Random Forests from the `sklearn` library. The evaluation scores on the test data set are: R^2 = 0.570045, and RMSE = 2.000499.
+## Methodology
+This is a regression type of problem in which a subset of learning algoritms were trained from `scikit-learn` and regression algorithm from `XGBoost`. As a single number evaluation metric R^2 is used, and after fine-tuning the models, the most optimal model is Support Vector Regressor where R^2=0.655027.
