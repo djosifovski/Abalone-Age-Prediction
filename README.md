@@ -11,4 +11,3 @@ The most optimal model is Support Vector Regressor where the evaluation metric f
 
 ## Technologies
 Technologies that are used in this project are: scikit-learn, XGBoost, TabNet, Jupyter Notebook.
-# Abalone-Age-Prediction
